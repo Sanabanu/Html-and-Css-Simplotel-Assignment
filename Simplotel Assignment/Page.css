@@ -1,0 +1,136 @@
+*{
+   margin: 0; 
+   padding: 0;
+  
+   box-sizing: border-box;
+   
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FA7070 ;
+    padding: 5px 0;
+    color:#000000;
+
+}
+nav ul{
+    list-style-type: none;
+
+}
+nav ul a li{
+    display: inline-block;
+    margin: 10px;
+    
+}
+nav ul a{
+    display: inline;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: 0.2s ease-in;
+
+}
+nav ul a:hover{
+    background-color: #ac5555;
+    color: bisque;
+}
+.logo{
+   float: right;
+   margin-right: 15px;
+}
+.logo img{
+    width: 50px;
+}
+.top-section-container{
+background-image:linear-gradient(to right,khaki,pink);
+ display: flex;
+
+}
+.top-text-container{
+    width: 50%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.top-section-heading h1{
+    font-size: 50px;
+    width: 100%;
+    letter-spacing: 10px;
+    
+}
+.top-text-heading p{
+    font-size: 18px;
+    padding-top: 300px;
+    font-family:Arial, Helvetica, sans-serif ;
+    line-height:10px ;
+    
+
+}
+.click-me-button{
+    width: 40%;
+    background-color:#FA7070;
+    border: 0;
+    outline: none;
+    color: white;
+    padding: 15px 0px;
+    font-size: 18px;
+    font-family: candara light;
+    font-size: large;
+    cursor: pointer;
+}
+.top-image-container{
+    width: 50%;
+}
+.top-image-container img{
+    width: 100%;
+}
+.bottom-section-container{
+    background-image:linear-gradient(to right,khaki,pink) ;
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+.bottom-section-image-container{
+    width: 50%;
+    display: flex;
+}
+.col img{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    width: 300px;
+    height: 250px;
+}
+.bottom-section-image-container img{
+    width: 300px;
+    margin-bottom: 10px;
+   
+}
+.bottom-section-text-container{
+    background-color: #f56464;
+    padding: 5%;
+    width: 40%;
+    font-family: "Arial";
+}
+.bottom-section-text-container p{
+    margin-bottom: 10px;
+    font-size: 10px;
+}
+.bottom-section-text-container h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.arrow img{
+    width: 20px;
+    margin-left: 5px;
+   
+}
